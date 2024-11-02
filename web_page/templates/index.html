@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGENT REKOMENDACJI PODROŻY</title>
+    <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+    <style>
+        body {
+            background-color: #f0f0f0; /* Jasne tło */
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .banner {
+            background-color: #007bff; /* Kolor niebieski */
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+        }
+        df-messenger {
+            z-index: 999;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            top: 65px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        AGENT REKOMENDACJI PODRÓŻY
+    </div>
+    <div class="content">
+        <h1>Witamy na stronie!</h1>
+        <p>Znajdziesz tutaj najlepsze oferty podróży.</p>
+    </div>
+
+    <!-- Dialogflow Messenger -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+    <df-messenger
+      oauth-client-id="228144037426-hg46fo3j38a7ca6erqgdda7n2q2757pq.apps.googleusercontent.com"
+      location="us-central1"
+      project-id="geocodingapitest-430811"
+      agent-id="8cb59b79-3b16-41b6-8d33-acb15abb740c"
+      language-code="en"
+      max-query-length="-1">
+      <df-messenger-chat
+       chat-title="Trip Advisor">
+      </df-messenger-chat>
+    </df-messenger>
+</body>
+</html>
