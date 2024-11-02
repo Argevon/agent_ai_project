@@ -75,7 +75,7 @@ def generate_pdf(airport, flights):
 
 
 # Ścieżka do pliku JSON
-file_path = r'../inz_oprogramowania_projekt/kiwi_flights_data.json'  # Zaktualizuj ścieżkę do pliku
+file_path = r'C:/Users/Kamil_Laskowski/PycharmProjects/pythonProject1/agent_ai_project/tests/kiwi_flights_data.json'  # Zaktualizuj ścieżkę do pliku
 airports = ['WAW', 'KRK', 'GDN', 'KTW', 'POZ', 'WRO', 'SZZ', 'RZE']
 
 # Wykonanie skryptu
