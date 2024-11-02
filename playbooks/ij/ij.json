@@ -1,0 +1,25 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "ij",
+  "goal": "Providing info about the weather for 5 next days. access to info about: Feels like temperatures, Wind speed and Overall forecast info.\nProviding info about flights.",
+  "steps": [ {
+    "text": "USE ${TOOL:00444c20-0b2a-45b2-9860-ae3e625e0cca} to provide info about city description and best places to visit in the city and best places to eat - restaurants."
+  }, {
+    "text": "USE ${TOOL:678e8888-1072-4397-8511-e554dfeb03fb} to find flights from one of 'WAW', 'KRK', 'GDN', 'KTW', 'POZ', 'WRO', 'SZZ', 'RZE' those airports. the data contains the earliest flights from today. ask about destination and departure and find the answer with all flights."
+  }, {
+    "text": "USE ${TOOL:b379b7cb-260d-48a5-bd86-09ed1e6ffaab} to ask if check weather is needed for choosen destination, if so provide the summary of weather for all next days you have in the doc."
+  } ],
+  "referencedTools": [ "projects/geocodingapitest-430811/locations/us-central1/agents/8cb59b79-3b16-41b6-8d33-acb15abb740c/tools/00444c20-0b2a-45b2-9860-ae3e625e0cca", "projects/geocodingapitest-430811/locations/us-central1/agents/8cb59b79-3b16-41b6-8d33-acb15abb740c/tools/678e8888-1072-4397-8511-e554dfeb03fb", "projects/geocodingapitest-430811/locations/us-central1/agents/8cb59b79-3b16-41b6-8d33-acb15abb740c/tools/b379b7cb-260d-48a5-bd86-09ed1e6ffaab" ],
+  "instruction": {
+    "steps": [ {
+      "text": "USE ${TOOL:00444c20-0b2a-45b2-9860-ae3e625e0cca} to provide info about city description and best places to visit in the city and best places to eat - restaurants."
+    }, {
+      "text": "USE ${TOOL:678e8888-1072-4397-8511-e554dfeb03fb} to find flights from one of 'WAW', 'KRK', 'GDN', 'KTW', 'POZ', 'WRO', 'SZZ', 'RZE' those airports. the data contains the earliest flights from today. ask about destination and departure and find the answer with all flights."
+    }, {
+      "text": "USE ${TOOL:b379b7cb-260d-48a5-bd86-09ed1e6ffaab} to ask if check weather is needed for choosen destination, if so provide the summary of weather for all next days you have in the doc."
+    } ]
+  },
+  "codeBlock": {
+  
+  }
+}
