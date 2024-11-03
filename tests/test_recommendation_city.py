@@ -8,7 +8,7 @@ from agent_ai_project.recommendations import (get_city_description, get_top_plac
 
 class TestCityData(unittest.TestCase):
 
-    @patch('agent_ai_project.recommendations.requests.get')
+    @patch('agent.recommendations.requests.get')
     def test_get_city_description(self, mock_get):
         # Mockowanie odpowiedzi z API Wikipedii
         mock_get.return_value.status_code = 200
@@ -20,7 +20,7 @@ class TestCityData(unittest.TestCase):
         description = get_city_description(city_name)
         self.assertEqual(description, 'Główne miasto w Europie.', "Powinno zwracać poprawny opis miasta.")
 
-    @patch('agent_ai_project.recommendations.requests.get')
+    @patch('agent.recommendations.requests.get')
     def test_get_top_places(self, mock_get):
         # Mockowanie odpowiedzi z Google Places API
         mock_get.return_value.status_code = 200
@@ -42,7 +42,7 @@ class TestCityData(unittest.TestCase):
         }
 
         # Mockowanie funkcji get_place_details
-        with patch('agent_ai_project.recommendations.get_place_details') as mock_get_details:
+        with patch('agent.recommendations.get_place_details') as mock_get_details:
             mock_get_details.return_value = {'description': 'Piękne miejsce.', 'rating': 4.5}
             places = get_top_places("Warszawa", 52.2297, 21.0122, 'tourist_attraction')
             self.assertEqual(len(places), 2, "Powinno zwracać 2 miejsca.")
@@ -50,7 +50,7 @@ class TestCityData(unittest.TestCase):
             self.assertEqual(places[0]['Rating'], 4.5, "Powinno zwracać poprawną ocenę.")
             self.assertEqual(places[0]['Description'], 'Piękne miejsce.', "Powinno zwracać poprawny opis.")
 
-    @patch('agent_ai_project.recommendations.requests.get')
+    @patch('agent.recommendations.requests.get')
     def test_get_place_details(self, mock_get):
         # Mockowanie odpowiedzi z Google Places Details API
         mock_get.return_value.status_code = 200
