@@ -3,5 +3,5 @@
   "displayName": "Default Welcome Intent",
   "priority": 500000,
   "skipAutoAnnotation": true,
-  "numTrainingPhrases": 16
+  "numTrainingPhrases": 34
 }

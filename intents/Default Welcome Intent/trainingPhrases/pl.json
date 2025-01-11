@@ -1,0 +1,147 @@
+{
+  "trainingPhrases": [ {
+    "id": "84b29a52-34fb-4d42-851d-23606ce99323",
+    "parts": [ {
+      "text": "co za miły dzień",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pl"
+  }, {
+    "id": "c9afd6d0-67a6-4874-a666-1c5d61589b3d",
+    "parts": [ {
+      "text": "witam",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pl"
+  }, {
+    "id": "381e34e5-0ca7-402c-be63-5f8580bce467",
+    "parts": [ {
+      "text": "uszanowanie",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pl"
+  }, {
+    "id": "8c4d4577-60ce-4d02-95f8-325ba5ecb163",
+    "parts": [ {
+      "text": "hejka",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pl"
+  }, {
+    "id": "74e09182-a55f-497c-a50d-9680a5368408",
+    "parts": [ {
+      "text": "chcę tylko powiedzieć cześć",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pl"
+  }, {
+    "id": "abacc759-a8de-4e59-8456-bf66da58e165",
+    "parts": [ {
+      "text": "hej",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pl"
+  }, {
+    "id": "f50bff2c-d36b-4791-bbe4-004463297d41",
+    "parts": [ {
+      "text": "no co tam",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pl"
+  }, {
+    "id": "f25877c7-c747-4300-8a8e-f2c4f4c97298",
+    "parts": [ {
+      "text": "witaj",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pl"
+  }, {
+    "id": "02c226c0-2f74-4234-a054-7c8c8e823a82",
+    "parts": [ {
+      "text": "heja",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pl"
+  }, {
+    "id": "f60f5e72-0780-4d9a-abb0-f341da3e4b01",
+    "parts": [ {
+      "text": "dawno Cię nie było",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pl"
+  }, {
+    "id": "f6a982ea-ae2b-455d-bce4-43e778f9cb77",
+    "parts": [ {
+      "text": "no witam",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pl"
+  }, {
+    "id": "e845c5cb-c3d0-43ce-b48c-f52efcc2a107",
+    "parts": [ {
+      "text": "cześć",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pl"
+  }, {
+    "id": "7f9c8802-f483-44c2-abbe-bbe8b67deaa8",
+    "parts": [ {
+      "text": "hej cześć",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pl"
+  }, {
+    "id": "762b8e4f-6ef2-4c75-b4eb-8302e5688b5c",
+    "parts": [ {
+      "text": "witaj ponownie",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pl"
+  }, {
+    "id": "1fa3f36f-8136-4588-810e-68175eb36742",
+    "parts": [ {
+      "text": "dzień dobry",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pl"
+  }, {
+    "id": "3150d953-7bd1-421f-9d57-6de4be5ffb55",
+    "parts": [ {
+      "text": "siemasz",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pl"
+  }, {
+    "id": "3f611e91-3a83-4b3c-b938-824841b25094",
+    "parts": [ {
+      "text": "no hejka",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pl"
+  }, {
+    "id": "3035336c-f0b8-4a4a-94d6-b3422df1623a",
+    "parts": [ {
+      "text": "witam Cię",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pl"
+  } ]
+}

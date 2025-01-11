@@ -1,14 +1,46 @@
 {
+  "displayName": "Trip Advisor",
   "defaultLanguageCode": "en",
   "timeZone": "America/Los_Angeles",
   "projectNumber": 228144037426,
+  "speechToTextSettings": {
+  
+  },
   "advancedSettings": {
+    "audioExportGcsDestination": {
+    
+    },
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 5
+      }
+    },
+    "playbackInterruptionSettings": {
+    
+    },
     "loggingSettings": {
     
     }
   },
+  "speakerIdSettings": {
+  
+  },
+  "textToSpeechSettings": {
+  
+  },
   "genAppBuilderSettings": {
     "engine": "projects/228144037426/locations/us/collections/default_collection/engines/8cb59b79-3b16-41b6-8d33-acb15abb740c"
   },
-  "startPlaybook": "ij"
+  "duplexSettings": {
+  
+  },
+  "answerFeedbackSettings": {
+  
+  },
+  "startPlaybook": "ij",
+  "webClientSettings": {
+    "backgroundColor": "#f3f6fc",
+    "boxBorderRadius": "0"
+  }
 }
